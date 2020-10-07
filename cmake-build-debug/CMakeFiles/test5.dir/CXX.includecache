@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/halxp/Desktop/test5/astar.cpp
+astar.h
+/Users/halxp/Desktop/test5/astar.h
+
+/Users/halxp/Desktop/test5/astar.h
+iostream
+-
+vector
+-
+cmath
+-
+
+/Users/halxp/Desktop/test5/jps.cpp
+jps.h
+/Users/halxp/Desktop/test5/jps.h
+
+/Users/halxp/Desktop/test5/jps.h
+iostream
+-
+vector
+-
+cmath
+-
+
+/Users/halxp/Desktop/test5/main.cpp
+iostream
+-
+cstring
+-
+fstream
+-
+time.h
+-
+astar.h
+/Users/halxp/Desktop/test5/astar.h
+jps.h
+/Users/halxp/Desktop/test5/jps.h
+
